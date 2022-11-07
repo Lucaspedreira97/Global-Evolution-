@@ -1,13 +1,14 @@
 import React from "react";
 import "./App.css";
-import ResponsiveAppBar from "./common/NavBar";
+import {BrowserRouter} from "react-router-dom"
+import { Approuter } from "./router";
 
 
 function App() {
   return (
-    <div>
-   <ResponsiveAppBar/>
-    </div>
+   <BrowserRouter>
+   <Approuter/>
+   </BrowserRouter>
   );
 }
 
