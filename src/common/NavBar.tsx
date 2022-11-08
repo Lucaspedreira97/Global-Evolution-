@@ -91,7 +91,7 @@ function ResponsiveAppBar() {
               ))} */}
             </Menu>
           </Box>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+
             <Button
               // href={`/${page}`}
               key={pages[0]}
