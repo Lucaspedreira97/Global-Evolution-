@@ -14,6 +14,7 @@ import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import img from "../assets/logo.png";
 import { useNavigate } from "react-router-dom";
+import { Divider } from "@mui/material";
 
 const pages = ["Descubrí Hi Five", "Contactanos"];
 const pages2 = ["home", "aboutUs"];
@@ -33,11 +34,20 @@ function ResponsiveAppBar() {
   const navigate = useNavigate();
 
   return (
-    <AppBar position="sticky">
-      <Container maxWidth="xl">
+    <AppBar position="sticky" color="transparent">
+      <Container
+        sx={{
+          backgroundColor: "#1f2023",
+        }}
+        maxWidth="xl"
+      >
         <Toolbar disableGutters>
           <a href="/home">
-            <img src={img} alt="img" style={{ width: 110 }} />
+            <img
+              src={img}
+              alt="img"
+              style={{ width: 150, marginTop: 10, marginRight: 10 }}
+            />
           </a>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
@@ -60,7 +70,7 @@ function ResponsiveAppBar() {
               keepMounted
               transformOrigin={{
                 vertical: "top",
-                horizontal: "left",
+                horizontal: "right",
               }}
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}

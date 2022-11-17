@@ -4,11 +4,6 @@ import React from "react";
 type HeaderProps = {
   title: string;
 };
-// type HeaderProps = {
-//   title: string;
-//   description: string;
-//   element?: React.ReactNode | null;
-// };
 
 export const HeaderComponent: React.FC<HeaderProps> = ({ title }) => {
   return (
@@ -28,7 +23,7 @@ export const HeaderComponent: React.FC<HeaderProps> = ({ title }) => {
             sx={{ height: "100" }}
           >
             <Grid item>
-              <Typography variant="h1" fontSize={35} textAlign="center">
+              <Typography variant="h1" fontSize={44} textAlign="center">
                 {title}
               </Typography>
             </Grid>

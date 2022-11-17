@@ -16,7 +16,6 @@ export default function MediaCard() {
         <Grid
           item
           md={2}
-          // sx={{ width: 200, height: 90, margin:1 }}
         />
         <img
           src={img}
@@ -67,7 +66,7 @@ export default function MediaCard() {
           </ul>
         </Grid>
       </Grid>
-      <Divider/>
+      {/* <Divider sx={{margin:0}}/> */}
     </div>
   );
 }
