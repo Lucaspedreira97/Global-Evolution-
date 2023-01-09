@@ -20,7 +20,7 @@ export const Footer2: React.FC<{}> = () => {
                     sx={{ fontStyle: "italic", fontSize: 15 }}
                     color="gray"
                   >
-                    © Global Evolution 2022
+                    © Global Evolution 2023
                   </Typography>
                 </Box>
               </Grid>
