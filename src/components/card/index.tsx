@@ -20,7 +20,7 @@ export default function MediaCard() {
         <img
           src={img}
           alt="img"
-          style={{ width: 270, objectFit: "cover", margin: 50 }}
+          style={{ width: 290, objectFit: "cover", margin: 50 }}
         />
         <Grid>
           <Typography gutterBottom variant="h3" component="div">
@@ -33,33 +33,33 @@ export default function MediaCard() {
           </Typography>
           <ul>
             <li>
-              <Typography variant="p" color="text.secondary" maxWidth={800}>
+              <Typography variant="h6" color="text.secondary" maxWidth={800}>
                 Cargar y consultar siniestros en tiempo real mediante un codigo
                 QR
               </Typography>
             </li>
             <li>
-              <Typography variant="p" color="text.secondary" maxWidth={800}>
+              <Typography variant="h6" color="text.secondary" maxWidth={800}>
                 Descargar la Tarjeta Vehicular y el Certificado Mercosur.
               </Typography>
             </li>
             <li>
-              <Typography variant="p" color="text.secondary" maxWidth={800}>
+              <Typography variant="h6" color="text.secondary" maxWidth={800}>
                 Geolocalización
               </Typography>
             </li>
             <li>
-              <Typography variant="p" color="text.secondary" maxWidth={800}>
+              <Typography variant="h6" color="text.secondary" maxWidth={800}>
                 Contacto directo con tu aseguradora o productor
               </Typography>
             </li>
             <li>
-              <Typography variant="p" color="text.secondary" maxWidth={800}>
+              <Typography variant="h6" color="text.secondary" maxWidth={800}>
                 Consultar y descargar tus pólizas.
               </Typography>
             </li>
             <li>
-              <Typography variant="p" color="text.secondary" maxWidth={800}>
+              <Typography variant="h6" color="text.secondary" maxWidth={800}>
                 Acceder a nuestros sitios web y redes sociales.
               </Typography>
             </li>
